@@ -1,0 +1,159 @@
+#bg-img{
+    height: 700px;
+    background-image: url("./assets/image/bg-img-1.jpg!d");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+#logo a{
+    text-decoration: none;
+    color: white;
+}
+#logo h1{
+    text-align: center;
+    font-size: 42px;
+}
+#bg-img div:nth-child(2) a{
+    text-decoration: none;
+    color: black;
+}
+#bg-img div:nth-child(2) a:hover{
+    color: red;
+}
+#bg-img div:nth-child(2){
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+}
+#bg-img div:nth-child(3){
+    margin-top: 20px;    
+    font-size: 25px;
+}
+#bg-img div:last-child a{
+    text-decoration: none;
+    color: black;
+}
+#project h1, #about h1, #contact h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+#project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line{
+    
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    height: 220px;
+    width: 31%;
+    padding: 15px;
+}
+#bg-img-2{
+    height: 500px;
+    background-image: url("./assets/image/bg-img-2.png");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about p{
+    width: 40%;
+    text-align: center;
+    margin-top: -20px;
+    font-weight: 100;
+}
+#bg-img-3{
+    height: 500px;
+    background-image: url("./assets/image/bg-img-3.png");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+form>div:first-child{
+    width: 100%;
+    display: flex;
+    gap: 3%;
+}
+form>div:first-child input{
+    height: 40px;
+    width: 380px;
+    font-size: 150%;
+}
+form input:hover{
+    background-color: rgba(128, 128, 128, 0.133);
+    border: 2px solid rgba(26, 26, 26, 0.489);
+}
+form textarea:hover{
+    background-color: rgba(128, 128, 128, 0.133);
+    border: 1px solid rgba(26, 26, 26, 0.489);
+}
+form>div:nth-child(3) input, form>div:nth-child(5) input{
+    height: 40px;
+    width: 790px;
+}
+#submit{
+    height: 35px;
+    width: 150px;
+    position: relative;
+    left: 81%;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+#submit:hover{
+    background-color: rgba(128, 128, 128, 0.582);
+    color: black;
+}
+#foot{
+    width: 42%;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 15%;
+}
+#foot>div:last-child{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+#foot a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(153, 55, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+}
